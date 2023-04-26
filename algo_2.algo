@@ -1,0 +1,65 @@
+PROCEDURE doc_product(v1, v2: INTEGER)
+VAR
+    ps = 0;
+    i,j : INTEGER;
+BEGIN
+    ps += v1[i] * v2[i]
+    IF (ps == 0) THEN
+    read ("v1 && v2", "sont orthogonaux")
+ELSE
+    read("v1 && V2" , "ne sont pas orthogonaux")
+END_IF
+// utilisation avec une procédure
+vecteurs = [[1, 2], [3, 4], [5, 6]]
+sont_orthogonaux_procedure(vecteurs)
+//utilisation avec une fonction
+vecteurs = [[1, 2], [3, 4], [5, 6]]
+    IF sont_orthogonaux_fonction(vecteurs):
+    read("deux vecteurs sont orthogonaux")
+else:
+    read(resultat)
+END
+
+
+
+
+
+
+
+
+
+ALGORITHM jeux_array
+VAR
+    arraye_name: ARRAY_OF INTEGER[];
+    sum: 0: INTEGER []
+    tableau1; tableau2 : INTEGER
+    sum_elements_distincts = 13 
+BEGIN
+    write(arr "jeu1")
+    read([3, 1, 7, 9])
+    write(arr "jeu2")
+    read([2, 4, 1, 9, 3])
+    FOR i FROM 0 TO arr.length -1  STEP 1  DO
+        write(sum)
+    END_FOR
+    //element in tableau1:
+    IF (element not in tableau2) THEN
+        sum += element
+    ELSE
+        write(resultat "sum")
+    END_IF
+        
+    //  element in tableau2:
+    IF (element not in tableau1) THEN
+        sum += element
+    ELSE
+        write(resultat "sum")
+    END_IF
+    write(resultat = sum_elements_distincts(jeu1, jeu2))
+    read(resultat "sum")
+    //  # affiche 13
+END
+
+
+jeu1 = [3, 1, 7, 9]
+jeu2 = [2, 4, 1, 9, 3]
